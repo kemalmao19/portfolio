@@ -10,8 +10,8 @@ type project = {
 
 let projects = [
     {
-        name: "adopthunt",
-        description: "An app for finding adoptable pets",
+        name: "Adopt Hunt",
+        description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum", 
         image: "/adopthunt.png",
         path: "/projects/adopthunt",
         techs: ["React", "Next.js", "Tailwind", "Prisma", "Postgres"],
@@ -21,7 +21,7 @@ let projects = [
     },
     {
         name: "rescript-nextjs minimal starter",
-        description: "Rescript + Next.js minimal starter",
+        description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum", 
         image: "/adopthunt.png",
         path: "/projects/rescript-nextjs",
         techs: ["Rescript", "Next.js", "Tailwind", "Prisma", "Postgres"],
