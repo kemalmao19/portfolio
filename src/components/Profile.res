@@ -1,13 +1,14 @@
 open Next
 let title = "ABOUT" |> React.string
 let myName = "Kemal Maolana" |> React.string
-let myStatus = "Jr. Full Stack Developer" |> React.string
+let myStatus = "Junior Full Stack Developer" |> React.string
 let description =
   "I code and design visually captivating full-stack applications that prioritize user experience." |> React.string
 
 @react.component
 let make = () => {
-  <div className="flex flex-col gap-4">
+  <section>
+  <div className="flex flex-col gap-4 lg:sticky lg:top-24">
     <div className="font-bold text-gray-700"> {title} </div>
     <div className="text-6xl font-bold my-2"> {myName} </div>
     <div className="font-bold text-gray-700"> {myStatus} </div>
@@ -50,4 +51,5 @@ let make = () => {
       </div>
     </section>
   </div>
+  </section>
 }
