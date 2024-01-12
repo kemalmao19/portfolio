@@ -6,7 +6,7 @@ let make = () => {
       {ProjectList.journey
       ->Belt.Array.mapWithIndex((index, project) => {
         <section
-          className="flex-none w-2/3 hover:border hover:border-sky-400 hover:bg-sky-100 rounded-lg p-2 space-y-4 hover:scale-105 transition-all duration-200 ease-in-out"
+          className="flex-none w-2/3 hover:border border border-sky-50 hover:border-sky-400 hover:bg-sky-100 rounded-lg p-2 space-y-4  transition-all duration-200 ease-in-out"
           key={index |> Belt.Int.toString}>
           <div className="bg-slate-500">
             <Next.Image

@@ -72,13 +72,13 @@ let projects = [
 let allProject = [
   {
     name: "Adopt Hunt",
-    created: "Des 2023",
+    created: "Dec 2023",
     techs: ["React", "Next.js", "Tailwind", "Postgres", "AWS"],
     github: "https://github.com/kemalmao19/adopt-hunt",
   },
   {
     name: "Time Tracker",
-    created: "DES 2023",
+    created: "Dec 2023",
     techs: ["Rescript", "React", "Tailwind"],
     github: "https://github.com/kemalmao19/time-tracker",
   },

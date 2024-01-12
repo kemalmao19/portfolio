@@ -17,7 +17,7 @@ let make = () => {
       <Link href="https://github.com/kemalmao19">
         <Lucide.Github color="white" className="bg-gray-800 rounded-full p-1" />
       </Link>
-      <Link href="https://www.linkedin.com/in/kemalmao/">
+      <Link href="https://www.linkedin.com/in/kemal-maolana-yusuf/">
         <Lucide.Linkedin color="white" className="bg-gray-800 rounded-full p-1" />
       </Link>
     </section>
