@@ -23,7 +23,7 @@ let make = () => {
     <section className="flex flex-col gap-4">
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
-          <Lucide.Code2 size={20} color="white" className="bg-blue-300 rounded-full p-1" />
+          <Lucide.Code2 size={20} color="#0284c7" className="bg-sky-200 rounded-full p-1" />
           <p className="text-sm"> {"Languages" |> React.string} </p>
         </div>
         <p className="text-xs text-gray-500">
@@ -32,7 +32,7 @@ let make = () => {
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
-          <Lucide.MonitorDot size={20} color="white" className="bg-blue-300 rounded-full p-1" />
+          <Lucide.MonitorDot size={20} color="#0284c7" className="bg-sky-200 rounded-full p-1" />
           <p className="text-sm"> {"Front End" |> React.string} </p>
         </div>
         <p className="text-xs text-gray-500">
@@ -41,7 +41,7 @@ let make = () => {
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
-          <Lucide.Database size={20} color="white" className="bg-blue-300 rounded-full p-1" />
+          <Lucide.Database size={20} color="#0284c7" className="bg-sky-200 rounded-full p-1" />
           <p className="text-sm"> {"Back End" |> React.string} </p>
         </div>
         <p className="text-xs text-gray-500">

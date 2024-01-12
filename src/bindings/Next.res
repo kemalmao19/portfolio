@@ -5,6 +5,7 @@ module Image = {
   external make: (
     ~alt: string=?,
     ~className: string=?,
+    ~fill: bool=?,
     ~loading: [
       | #"lazy"
       | #eager
@@ -19,6 +20,7 @@ module Image = {
     ~src: string,
     ~width: float=?,
     ~height: float=?,
+    ~sizes: string=?,
   ) => React.element = "default"
 }
 

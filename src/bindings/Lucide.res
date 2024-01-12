@@ -48,12 +48,12 @@ module MonitorDot = {
   ) => React.element = "MonitorDot"
 }
 
-module ArrowUpRight = {
+module ArrowRight = {
   @module("lucide-react") @react.component
   external make: (
     ~color: string=?,
     ~size: int=?,
     ~strokeWidth: float=?,
     ~className: string=?,
-  ) => React.element = "ArrowUpRight"
+  ) => React.element = "ArrowRight"
 }
