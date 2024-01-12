@@ -8,9 +8,9 @@ let description =
 @react.component
 let make = () => {
   <div className="flex flex-col gap-4">
-    <div className="font-bold"> {title} </div>
-    <div className="text-4xl font-bold my-2"> {myName} </div>
-    <div className="font-bold"> {myStatus} </div>
+    <div className="font-bold text-gray-700"> {title} </div>
+    <div className="text-6xl font-bold my-2"> {myName} </div>
+    <div className="font-bold text-gray-700"> {myStatus} </div>
     <div className="text-gray-500 text-sm"> {description} </div>
     <section className="flex gap-2 my-2">
       <Link href="https://github.com/kemalmao19">

@@ -29,6 +29,6 @@ let projects = [
         techs: ["Rescript", "Next.js", "Tailwind", "Prisma", "Postgres"],
         github: "https://github.com/kemalmao19/adopt-hunt",
         live: "hrescript-nextjs-boilerplate.vercel.app",
-        category: "frontend"
+        category: "fullstack"
     }
 ]

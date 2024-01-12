@@ -48,12 +48,12 @@ let make = (~category) => {
           <Link href={project.github}>
             <Lucide.Github color="white" className="bg-gray-800 rounded-full p-1" />
           </Link>
-          <div className="flex items-center gap-2">
+          <div className="grid grid-cols-5 items-center gap-2">
             {project.techs
             ->Belt.Array.mapWithIndex((index, tech) => {
               <div
                 key={index |> Belt.Int.toString}
-                className="bg-sky-200 py-2 px-3 text-xs text-sky-600 rounded-full ">
+                className="flex justify-center items-center bg-sky-200 py-2 px-3 text-xs text-sky-600 rounded-full ">
                 {tech |> React.string}
               </div>
             })
