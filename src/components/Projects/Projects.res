@@ -22,9 +22,9 @@ let make = () => {
       </div>
     </section>
     <Cards category={category}/>
-    <section className="flex justify-start items-center gap-1 hover:gap-2 mb-24 hover:underline transition-all duration-200 ease-in-out cursor-pointer">
+    <Next.Link href="/archive" className="flex justify-start items-center gap-1 hover:gap-2 mb-24 hover:underline transition-all duration-200 ease-in-out cursor-pointer">
       <div className="font-bold text-xs"> {"Explore all projects" |> React.string} </div>
       <Lucide.ArrowRight size={16} strokeWidth={1.0} />
-    </section>
+    </Next.Link>
   </div>
 }

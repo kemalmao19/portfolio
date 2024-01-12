@@ -16,6 +16,16 @@ type allProject = {
   github: string,
 }
 
+type journey = {
+  name: string,
+  description: string,
+  created: string,
+  apptype: string,
+  image: string,
+  techs: array<string>,
+  github: string,
+}
+
 let projects = [
   {
     name: "Adopt Hunt",
@@ -102,4 +112,25 @@ let allProject = [
     techs: ["Python", "OpenAI", "PyQT"],
     github: "https://github.com/kemalmao19/personal-assistant",
   },
+]
+
+let journey = [
+  {
+  name: "First ML Project",
+  description: "I create ML project for virtual internship in Cognizant. This project perform exploratory data analysis, communicate results of a machine learning model, implement algorithm production, and review algorithm performance.",
+  image: "/ml.png",
+  apptype: "Notebook & Python Script",
+  created: "Jun 2023",
+  techs: ["Python", "Jupyter Notebook"],
+  github: "https://github.com/kemalmao19/cognizant",
+},
+  {
+    name: "First WebApp Project",
+    description: "This innovative tool is designed to serve farmers and agricultural enthusiasts, equipping them with invaluable insights for their crop cultivation decisions. By taking into account a multitude of factors, such as soil characteristics, climate conditions, and historical yield data, the system empowers users to make informed choices on crop selection.",
+    image: "/quickdash.png",
+    apptype: "Crop Recomender",
+    created: "Oct 2022",
+    techs: ["Python", "Flask"],
+    github: "https://github.com/kemalmao19/quickdash",
+  }
 ]

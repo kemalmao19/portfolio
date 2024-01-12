@@ -57,3 +57,13 @@ module ArrowRight = {
     ~className: string=?,
   ) => React.element = "ArrowRight"
 }
+
+module ArrowLeft = {
+  @module("lucide-react") @react.component
+  external make: (
+    ~color: string=?,
+    ~size: int=?,
+    ~strokeWidth: float=?,
+    ~className: string=?,
+  ) => React.element = "ArrowLeft"
+}
