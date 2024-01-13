@@ -1,8 +1,8 @@
 @react.component
 let make = () => {
   <div>
-    <div className="text-4xl font-bold my-2"> {"Journey" |> React.string} </div>
-    <div className="flex flex-no-wrap overflow-x-scroll items-start my-8 bg-gray-100 p-6 gap-4">
+    <Title> {"Journey" |> React.string} </Title>
+    <div className="flex flex-no-wrap overflow-x-scroll items-start my-8 bg-sky-50 p-6 gap-4">
       {ProjectList.journey
       ->Belt.Array.mapWithIndex((index, project) => {
         <section

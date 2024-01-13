@@ -31,5 +31,6 @@ module Link = {
     ~href: string,
     ~passHref: option<bool>=?,
     ~className: string=?,
+    ~target: string=?,
   ) => React.element = "default"
 }

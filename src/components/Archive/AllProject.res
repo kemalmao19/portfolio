@@ -47,7 +47,7 @@ let projectTable = () =>
 @react.component
 let make = () => {
   <div className="flex flex-col gap-4 mb-24">
-    <div className="text-4xl font-bold my-2"> {"All Projects" |> React.string} </div>
+    <Title> {"All Projects" |> React.string} </Title>
     {projectTable()}
   </div>
 }
