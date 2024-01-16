@@ -1,6 +1,6 @@
 @react.component
 let page = () => {
-  <div className="flex flex-col p-8 lg:p-0 max-w-4xl lg:m-auto lg:my-12">
+  <div className="flex flex-col p-8 lg:p-0 max-w-4xl lg:m-auto lg:my-12 md:max-w-xl md:m-auto lg:max-w-xl">
     <BackBtn />
     <Title> {"Adopt Hunt" |> React.string} </Title>
     <Visit />
