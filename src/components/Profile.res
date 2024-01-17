@@ -1,7 +1,7 @@
 open Next
 let title = "ABOUT" |> React.string
 let myName = "Kemal Maolana" |> React.string
-let myStatus = "Junior Full Stack Developer" |> React.string
+let myStatus = "Full Stack Developer" |> React.string
 let description =
   "I code and design visually captivating full-stack applications that prioritize user experience." |> React.string
 
