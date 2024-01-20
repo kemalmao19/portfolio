@@ -7,7 +7,8 @@ let make = () => {
   let handleCategory = (category) => {
     switch (category) {
       | "fullstack" => setCategory(_=>"frontend")
-      | _ => setCategory(_=>"fullstack")
+      | "frontend" => setCategory(_=>"fullstack")
+      | _ => ()
     }
   }
 

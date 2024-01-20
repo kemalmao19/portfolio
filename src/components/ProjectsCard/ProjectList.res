@@ -56,6 +56,15 @@ let projects = [
     github: "https://github.com/kemalmao19/tictactoe",
     live: "https://tictactoe-khaki-pi.vercel.app",
     category: "frontend",
+  },{
+    name: "Mk Landing Page",
+    description: "Mk Landing Page using vanilla html, css and javascript",
+    image: "https://github.com/kemalmao19/MK-landing/blob/main/preview/ScreenRecording2024-01-20at20.03.40-ezgif.com-speed.gif?raw=true",
+    path: "",
+    techs: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/kemalmao19/MK-landing",
+    live: "https://kemalmao19.github.io/MK-landing/",
+    category: "frontend",
   },
   {
     name: "Todo App",
@@ -109,6 +118,12 @@ let allProject = [
     created: "Nov 2023",
     techs: ["JS", "React", "Tailwind"],
     github: "https://github.com/kemalmao19/todo",
+  },
+  {
+    name: "Mk Landing Page",
+    created: "Nov 2023",
+    techs: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/kemalmao19/MK-landing",
   },
   {
     name: "Pomodoro App",
