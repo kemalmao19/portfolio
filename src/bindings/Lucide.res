@@ -77,3 +77,23 @@ module PawPrint = {
     ~className: string=?,
   ) => React.element = "PawPrint"
 }
+
+module Newspaper = {
+  @module("lucide-react") @react.component
+  external make: (
+    ~color: string=?,
+    ~size: int=?,
+    ~strokeWidth: float=?,
+    ~className: string=?,
+  ) => React.element = "Newspaper"
+}
+
+module Mail = {
+  @module("lucide-react") @react.component
+  external make: (
+    ~color: string=?,
+    ~size: int=?,
+    ~strokeWidth: float=?,
+    ~className: string=?,
+  ) => React.element = "Mail"
+}
