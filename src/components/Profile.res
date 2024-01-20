@@ -28,7 +28,7 @@ let make = () => {
           <p className="text-sm"> {"Languages" |> React.string} </p>
         </div>
         <p className="text-xs text-gray-500">
-          {"Python • JavaScript • Rescript" |> React.string}
+          {"Python • JavaScript/Typescript • Rescript" |> React.string}
         </p>
       </div>
       <div className="flex flex-col gap-2">
