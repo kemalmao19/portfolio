@@ -38,6 +38,16 @@ let projects = [
     category: "fullstack",
   },
   {
+    name: "Fylo dark theme landing page",
+    description: "Fylo dark theme landing page using tailwindcss",
+    image: "/fylo.png",
+    path: "",
+    techs: ["React", "Tailwind"],
+    github: "https://github.com/kemalmao19/fylo",
+    live: "fylo-livid.vercel.app",
+    category: "frontend",
+  },
+  {
     name: "Tictactoe",
     description: "Tictactoe game using react and tailwindcss",
     image: "/ticatactoe.png",
@@ -70,6 +80,12 @@ let projects = [
 ]
 
 let allProject = [
+  {
+    name: "Fylo dark theme landing page",
+    created: "Jan 2024",
+    techs: ["React", "Tailwind", "Rescript"],
+    github: "https://github.com/kemalmao19/fylo",
+  },
   {
     name: "Adopt Hunt",
     created: "Dec 2023",
@@ -116,14 +132,14 @@ let allProject = [
 
 let journey = [
   {
-  name: "First ML Project",
-  description: "I create ML project for virtual internship in Cognizant. This project perform exploratory data analysis, communicate results of a machine learning model, implement algorithm production, and review algorithm performance.",
-  image: "/ml.png",
-  apptype: "Notebook & Script",
-  created: "Jun 2023",
-  techs: ["Python", "Jupyter"],
-  github: "https://github.com/kemalmao19/cognizant",
-},
+    name: "First ML Project",
+    description: "I create ML project for virtual internship in Cognizant. This project perform exploratory data analysis, communicate results of a machine learning model, implement algorithm production, and review algorithm performance.",
+    image: "/ml.png",
+    apptype: "Notebook & Script",
+    created: "Jun 2023",
+    techs: ["Python", "Jupyter"],
+    github: "https://github.com/kemalmao19/cognizant",
+  },
   {
     name: "First WebApp Project",
     description: "This innovative tool is designed to serve farmers and agricultural enthusiasts, equipping them with invaluable insights for their crop cultivation decisions.",
@@ -132,5 +148,5 @@ let journey = [
     created: "Oct 2023",
     techs: ["Python", "Flask"],
     github: "https://github.com/kemalmao19/quickdash",
-  }
+  },
 ]
