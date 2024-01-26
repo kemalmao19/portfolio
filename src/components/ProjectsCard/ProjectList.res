@@ -48,6 +48,16 @@ let projects = [
     category: "frontend",
   },
   {
+    name: "RockScissorsPaper",
+    description: "RockScissorsPaper game using react and tailwindcss",
+    image: "/rockpaperscissor.png",
+    path: "",
+    techs: ["Rescript", "React", "Tailwind"],
+    github: "https://github.com/kemalmao19/rockscissorpaper",
+    live: "https://rockscissorpaper-eta.vercel.app/",
+    category: "frontend",
+  },
+  {
     name: "Tictactoe",
     description: "Tictactoe game using react and tailwindcss",
     image: "/ticatactoe.png",
@@ -100,6 +110,12 @@ let allProject = [
     created: "Dec 2023",
     techs: ["React", "Next.js", "Tailwind", "Postgres", "AWS"],
     github: "https://github.com/kemalmao19/adopt-hunt",
+  },
+  {
+    name: "RockScissorsPaper",
+    created: "Dec 2023",
+    techs: ["Rescript", "React", "Tailwind"],
+    github: "https://github.com/kemalmao19/rockscissorpaper", 
   },
   {
     name: "Time Tracker",
@@ -164,4 +180,22 @@ let journey = [
     techs: ["Python", "Flask"],
     github: "https://github.com/kemalmao19/quickdash",
   },
+  {
+    name: "First Game Project",
+    description: "This Tictactoe game is a classic game in which two players take turns in placing their 'X's and 'O's in a 3x3 grid. The first player to get three of their marks in a horizontal, vertical, or diagonal row wins the game.",
+    image: "/ticatactoe.png",
+    apptype: "TicTacToe",
+    created: "Nov 2023",
+    techs: ["React", "Tailwind"],
+    github: "https://github.com/kemalmao19/tictactoe",
+  },
+  {
+    name: "First Fullstack Project",
+    description: "Adopthunt is an application that helps pet owners find their perfect pet. It is a fullstack application that allows pet owners to post their pets, browse pets, and contact their owners.",
+    image: "/adopthunt.png",
+    apptype: "Adopt Hunt",
+    created: "Dec 2023",
+    techs: ["React", "Next.js", "Tailwind", "Postgres", "AWS"],
+    github: "https://github.com/kemalmao19/adopt-hunt",
+  }
 ]
