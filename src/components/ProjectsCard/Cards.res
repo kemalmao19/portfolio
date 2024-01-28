@@ -17,7 +17,13 @@ let make = (~category) => {
         onMouseOver={_ => setHover(_ => index)}
         onMouseOut={_ => setHover(_ => 1000)}>
         <Link
-          href={project.path === "" ? project.github : project.path}
+          href={switch project.path {
+            | "" => switch project.live {
+              | "" => project.github
+              | _ => project.live
+            }
+            | _ => project.path
+          }}
           className={`flex justify-start items-center gap-2 ${hover === index
               ? "text-sky-500"
               : ""} cursor-pointer`}>

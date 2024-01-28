@@ -44,7 +44,7 @@ let projects = [
     path: "",
     techs: ["React", "Tailwind"],
     github: "https://github.com/kemalmao19/fylo",
-    live: "fylo-livid.vercel.app",
+    live: "https://fylo-livid.vercel.app",
     category: "frontend",
   },
   {
@@ -58,6 +58,16 @@ let projects = [
     category: "frontend",
   },
   {
+    name: "Mk Landing Page",
+    description: "Mk Landing Page using vanilla html, css and javascript",
+    image: "https://github.com/kemalmao19/MK-landing/blob/main/preview/ScreenRecording2024-01-20at20.03.40-ezgif.com-speed.gif?raw=false",
+    path: "",
+    techs: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/kemalmao19/MK-landing",
+    live: "https://kemalmao19.github.io/MK-landing/",
+    category: "frontend",
+  },
+  {
     name: "Tictactoe",
     description: "Tictactoe game using react and tailwindcss",
     image: "/ticatactoe.png",
@@ -65,15 +75,6 @@ let projects = [
     techs: ["Rescript", "React", "Tailwind"],
     github: "https://github.com/kemalmao19/tictactoe",
     live: "https://tictactoe-khaki-pi.vercel.app",
-    category: "frontend",
-  },{
-    name: "Mk Landing Page",
-    description: "Mk Landing Page using vanilla html, css and javascript",
-    image: "https://github.com/kemalmao19/MK-landing/blob/main/preview/ScreenRecording2024-01-20at20.03.40-ezgif.com-speed.gif?raw=true",
-    path: "",
-    techs: ["HTML", "CSS", "Javascript"],
-    github: "https://github.com/kemalmao19/MK-landing",
-    live: "https://kemalmao19.github.io/MK-landing/",
     category: "frontend",
   },
   {
@@ -115,7 +116,7 @@ let allProject = [
     name: "RockScissorsPaper",
     created: "Dec 2023",
     techs: ["Rescript", "React", "Tailwind"],
-    github: "https://github.com/kemalmao19/rockscissorpaper", 
+    github: "https://github.com/kemalmao19/rockscissorpaper",
   },
   {
     name: "Time Tracker",
@@ -197,5 +198,5 @@ let journey = [
     created: "Dec 2023",
     techs: ["React", "Next.js", "Tailwind", "Postgres", "AWS"],
     github: "https://github.com/kemalmao19/adopt-hunt",
-  }
+  },
 ]
