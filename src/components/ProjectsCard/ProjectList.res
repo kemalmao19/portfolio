@@ -84,8 +84,8 @@ let projects = [
     path: "",
     techs: ["JS", "React", "Tailwind", "API"],
     github: "https://github.com/kemalmao19/todo",
-    live: "https://todo-lemon-seven.vercel.app",
-    category: "frontend",
+    live: "",
+    category: "fullstack",
   },
   {
     name: "Time Tracker",
