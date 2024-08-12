@@ -13,7 +13,8 @@ let make = () => {
       <div className="text-6xl font-bold my-2"> {myName} </div>
       <div className="font-bold text-gray-700"> {myStatus} </div>
       <div className="text-gray-500 text-sm"> {description} </div>
-      <section className="flex gap-2 my-2">
+      <section className="flex justify-between items-center">
+      <div className="flex gap-2 my-2">
         <Link href="https://github.com/kemalmao19">
           <Lucide.Github color="white" className="bg-gray-800 rounded-full p-1" />
         </Link>
@@ -23,6 +24,8 @@ let make = () => {
         <Link href="https://elgharuty.com/">
           <Lucide.Newspaper color="white" className="bg-gray-800 rounded-full p-1" />
         </Link>
+      </div>
+      <Link href="https://elgharuty.com" className="font-bold my-2 hover:text-sky-400">{React.string("Visit My Blogs")}</Link>
       </section>
       <section className="flex flex-col gap-4">
         <div className="flex flex-col gap-2">

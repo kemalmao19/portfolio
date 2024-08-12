@@ -28,16 +28,6 @@ type journey = {
 
 let projects = [
   {
-    name: "Slider Hero",
-    description: "Slider Hero is a landing page. It is a landing page with an image slider.",
-    image: "https://github.com/kemalmao19/slide1/blob/main/preview/preview.gif?raw=false",
-    path: "",
-    techs: ["HTML", "CSS", "Javascript"],
-    github: "https://github.com/kemalmao19/slide1",
-    live: "https://kemalmao19.github.io/slide1/",
-    category: "frontend",
-  },
-  {
     name: "Adopt Hunt",
     description: "Adoput Hunt is a platform for adopting pets. It helps to meet pet owners and adopters. make adoption easy and fun.",
     image: "/adopthunt.png",
@@ -65,6 +55,16 @@ let projects = [
     techs: ["Rescript", "React", "Tailwind"],
     github: "https://github.com/kemalmao19/rockscissorpaper",
     live: "https://rockscissorpaper-eta.vercel.app/",
+    category: "frontend",
+  },
+    {
+    name: "Slider Hero",
+    description: "Slider Hero is a landing page. It is a landing page with an image slider.",
+    image: "https://github.com/kemalmao19/slide1/blob/main/preview/preview.gif?raw=false",
+    path: "",
+    techs: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/kemalmao19/slide1",
+    live: "https://kemalmao19.github.io/slide1/",
     category: "frontend",
   },
   {
@@ -110,6 +110,12 @@ let projects = [
 ]
 
 let allProject = [
+  {
+    name: "Slider Hero",
+    created: "Feb 2024",
+    techs: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/kemalmao19/slide1"
+  },
   {
     name: "Fylo dark theme landing page",
     created: "Jan 2024",
