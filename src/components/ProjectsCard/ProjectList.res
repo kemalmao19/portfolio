@@ -60,9 +60,9 @@ let projects = [
   {
     name: "Key Cargo Express",
     description: "Key Cargo Express is a platform for shipping. It helps to ship packages. make shipping easy and fun.",
-    image: "https://github.com/kemalmao19/keycargo/blob/main/preview/preview.png?raw=false",
+    image: "https://github.com/kemalmao19/keycargo/blob/main/preview.png?raw=false",
     path: "",
-    techs: ["Wordpress, CSS, Figma"],
+    techs: ["Wordpress", "CSS", "Figma"],
     github: "https://github.com/kemalmao19/keycargo",
     live: "https://cargoindonesiajepang.com",
     category: "frontend",
@@ -130,6 +130,18 @@ let projects = [
 ]
 
 let allProject = [
+  {
+    name: "Key Cargo Express",
+    created: "Aug 2024",
+    techs: ["Wordpress", "CSS", "Figma"],
+    github: "https://github.com/kemalmao19/keycargo"
+  },
+  {
+    name: "Twiscode",
+    created: "Jul 2024",
+    techs: ["React", "Tailwind", "Javascript"],
+    github: "https://github.com/kemalmao19/twiscode"
+  },
   {
     name: "Slider Hero",
     created: "Feb 2024",
