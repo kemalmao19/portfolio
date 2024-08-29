@@ -50,7 +50,7 @@ let projects = [
   {
     name: "Twiscode",
     description: "Twiscode specializes in developing high-performing mobile and web applications.",
-    image: "https://github.com/kemalmao19/twiscode/blob/main/preview/preview.png?raw=false",
+    image: "/twiscode.png",
     path: "",
     techs: ["React", "Tailwind", "Javascript"],
     github: "https://github.com/kemalmao19/twiscode",
@@ -60,7 +60,7 @@ let projects = [
   {
     name: "Key Cargo Express",
     description: "Key Cargo Express is a platform for shipping. It helps to ship packages. make shipping easy and fun.",
-    image: "https://github.com/kemalmao19/keycargo/blob/main/preview.png?raw=false",
+    image: "/keycargo.png",
     path: "",
     techs: ["Wordpress", "CSS", "Figma"],
     github: "https://github.com/kemalmao19/keycargo",
