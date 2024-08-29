@@ -38,16 +38,6 @@ let projects = [
     category: "fullstack",
   },
   {
-    name: "Fylo dark theme landing page",
-    description: "Fylo dark theme landing page using tailwindcss",
-    image: "/fylo.png",
-    path: "",
-    techs: ["React", "Tailwind"],
-    github: "https://github.com/kemalmao19/fylo",
-    live: "https://fylo-livid.vercel.app",
-    category: "frontend",
-  },
-  {
     name: "Twiscode",
     description: "Twiscode specializes in developing high-performing mobile and web applications.",
     image: "/twiscode.png",
@@ -75,6 +65,16 @@ let projects = [
     techs: ["Rescript", "React", "Tailwind"],
     github: "https://github.com/kemalmao19/rockscissorpaper",
     live: "https://rockscissorpaper-eta.vercel.app/",
+    category: "frontend",
+  },
+  {
+    name: "Fylo dark theme landing page",
+    description: "Fylo dark theme landing page using tailwindcss",
+    image: "/fylo.png",
+    path: "",
+    techs: ["React", "Tailwind"],
+    github: "https://github.com/kemalmao19/fylo",
+    live: "https://fylo-livid.vercel.app",
     category: "frontend",
   },
     {
