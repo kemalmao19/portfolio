@@ -124,7 +124,7 @@ let projects = [
     path: "",
     techs: ["Rescript", "React", "Tailwind", "API"],
     github: "https://github.com/kemalmao19/time-tracker",
-    live: "rescript-time-tracker.vercel.app",
+    live: "https://rescript-time-tracker.vercel.app",
     category: "frontend",
   },
 ]
