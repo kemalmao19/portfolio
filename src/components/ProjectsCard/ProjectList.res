@@ -38,6 +38,16 @@ let projects = [
     category: "fullstack",
   },
   {
+    name: "Awwwards Winning Landing Page Clone",
+    description: "Awwwards Winning Landing Page Clone full animated landing page",
+    image: "/awwwards.png",
+    path: "",
+    techs: ["React", "Sass", "Framer Motion", "GSAP"],
+    github: "https://github.com/kemalmao19/snellenberg-clone",
+    live: "https://snellenberg-clone.vercel.app",
+    category: "frontend",
+  },
+  {
     name: "Twiscode",
     description: "Twiscode specializes in developing high-performing mobile and web applications.",
     image: "/twiscode.png",
@@ -77,7 +87,7 @@ let projects = [
     live: "https://fylo-livid.vercel.app",
     category: "frontend",
   },
-    {
+  {
     name: "Slider Hero",
     description: "Slider Hero is a landing page. It is a landing page with an image slider.",
     image: "https://github.com/kemalmao19/slide1/blob/main/preview/preview.gif?raw=false",
@@ -131,22 +141,28 @@ let projects = [
 
 let allProject = [
   {
+    name: "Awwwards Winning Landing Page Clone",
+    created: "Sep 2024",
+    techs: ["React", "Sass", "Framer Motion", "GSAP"],
+    github: "https://github.com/kemalmao19/snellenberg-clone"
+  },
+  {
     name: "Key Cargo Express",
     created: "Aug 2024",
     techs: ["Wordpress", "CSS", "Figma"],
-    github: "https://github.com/kemalmao19/keycargo"
+    github: "https://github.com/kemalmao19/keycargo",
   },
   {
     name: "Twiscode",
     created: "Jul 2024",
     techs: ["React", "Tailwind", "Javascript"],
-    github: "https://github.com/kemalmao19/twiscode"
+    github: "https://github.com/kemalmao19/twiscode",
   },
   {
     name: "Slider Hero",
     created: "Feb 2024",
     techs: ["HTML", "CSS", "Javascript"],
-    github: "https://github.com/kemalmao19/slide1"
+    github: "https://github.com/kemalmao19/slide1",
   },
   {
     name: "Fylo dark theme landing page",
