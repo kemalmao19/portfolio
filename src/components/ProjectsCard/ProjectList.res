@@ -38,8 +38,8 @@ let projects = [
     category: "fullstack",
   },
   {
-    name: "Awwwards Winning Landing Page Clone",
-    description: "Awwwards Winning Landing Page Clone full animated landing page",
+    name: "Animated Landing Page Clone",
+    description: "Landing Page Clone full animated landing page",
     image: "/awwwards.png",
     path: "",
     techs: ["React", "Sass", "Framer Motion", "GSAP"],
@@ -141,7 +141,7 @@ let projects = [
 
 let allProject = [
   {
-    name: "Awwwards Winning Landing Page Clone",
+    name: "Animated Landing Page Clone",
     created: "Sep 2024",
     techs: ["React", "Sass", "Framer Motion", "GSAP"],
     github: "https://github.com/kemalmao19/snellenberg-clone"
