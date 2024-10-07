@@ -28,6 +28,16 @@ type journey = {
 
 let projects = [
   {
+    name: "Ashmawiya",
+    description: "Platform for online learning islamic jurispridence from the ashmawiya book.",
+    image: "https://github.com/kemalmao19/ashmawiya/blob/main/preview/ashmawiya.png?raw=false",
+    path: "",
+    tech: ["React", "express", "Prisma", "Postgress"],
+    github: "https://github.com/kemalmao19/ashmawiya",
+    live: "https://ashmawiya-fe.vercel.app",
+    category: "fullstack",
+  },
+  {
     name: "Adopt Hunt",
     description: "Adoput Hunt is a platform for adopting pets. It helps to meet pet owners and adopters. make adoption easy and fun.",
     image: "/adopthunt.png",
@@ -141,10 +151,16 @@ let projects = [
 
 let allProject = [
   {
+    name: "Ashmawiya Learning Platform",
+    created: "Sep 2024",
+    tech: ["React", "express", "Prisma", "Postgress"],
+    github: "https://github.com/kemalmao19/ashmawiya",
+  },
+  {
     name: "Animated Landing Page Clone",
     created: "Sep 2024",
     techs: ["React", "Sass", "Framer Motion", "GSAP"],
-    github: "https://github.com/kemalmao19/snellenberg-clone"
+    github: "https://github.com/kemalmao19/snellenberg-clone",
   },
   {
     name: "Key Cargo Express",
