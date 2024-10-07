@@ -32,7 +32,7 @@ let projects = [
     description: "Platform for online learning islamic jurispridence from the ashmawiya book.",
     image: "https://github.com/kemalmao19/ashmawiya/blob/main/preview/ashmawiya.png?raw=false",
     path: "",
-    tech: ["React", "express", "Prisma", "Postgress"],
+    techs: ["React", "express", "Prisma", "Postgress"],
     github: "https://github.com/kemalmao19/ashmawiya",
     live: "https://ashmawiya-fe.vercel.app",
     category: "fullstack",
@@ -153,7 +153,7 @@ let allProject = [
   {
     name: "Ashmawiya Learning Platform",
     created: "Sep 2024",
-    tech: ["React", "express", "Prisma", "Postgress"],
+    techs: ["React", "express", "Prisma", "Postgress"],
     github: "https://github.com/kemalmao19/ashmawiya",
   },
   {
